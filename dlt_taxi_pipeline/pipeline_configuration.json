@@ -1,0 +1,10 @@
+{
+  "pipeline_name": "dlt_taxi_pipeline",
+  "target": "workspace.default",
+  "storage_location": "/pipelines/dlt_taxi_pipeline",
+  "notebooks": [
+    "01_bronze_ingest_dlt.py",
+    "02_silver_transformations.py",
+    "03_gold_materialized.py"
+  ]
+}
